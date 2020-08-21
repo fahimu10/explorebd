@@ -1,0 +1,81 @@
+/*-----------------------------------
+  #Elements
+-----------------------------------*/
+*{
+  font-family: 'Playfair Display', serif;
+  transition-duration: .40s;
+  letter-spacing: 1px;
+}
+body{
+  font-family: 'Playfair Display', serif;
+  letter-spacing: 1px;
+}
+header{
+  height: 100vh;
+}
+nav{
+  height: 12vh;
+}
+a{
+  color: $color-secondary;
+}
+a:hover{
+  color: $color-theme;
+  text-decoration: none;
+}
+h1{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 76px;
+  line-height: 101px;
+  color: $color-primary
+}
+h2{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 95px;
+  color: $color-primary;
+}
+h3{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 40px;
+  color: $color-primary;
+}
+h4{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: $color-primary;
+}
+h5{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: $color-primary;
+}
+
+footer{
+  background-color: lightgray;
+  p{
+    color: $color-primary;
+    font-size: 14px;
+  }
+  a{
+    font-size: 14px;
+  }
+}
+p{
+  line-height: 20px;
+  letter-spacing: 1px;
+}

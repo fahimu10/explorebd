@@ -1,0 +1,197 @@
+/*-----------------------------------
+  #Components
+-----------------------------------*/
+.navbar-brand{
+  font-size: 28px;
+  color: $color-primary;
+  font-weight: 700;
+  line-height: 37px;
+}
+.nav-item{
+  margin-left: 1rem;
+  font-size: 16px;
+  color: $color-secondary;
+  line-height: 24px;
+}
+.banner-content{
+  height: 88vh;
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+  }
+  a{
+    display: block;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .banner-btn-left{
+    background-color: $color-theme;
+    border: solid 1px $color-theme;
+    color: $color-white;
+    padding: 15px 0;
+    margin: 10px;
+    a{
+      color: $color-white;
+    }
+  }
+  .banner-btn-left:hover{
+    background-color: $color-white;
+    cursor: pointer;
+    a{
+      color: $color-theme;
+    }
+  }
+  .banner-btn-right{
+    background-color: $color-white;
+    border: solid 1px $color-secondary;
+    color: $color-white;
+    padding: 15px 0;
+    margin: 10px;
+    a{
+      color: $color-secondary;
+    }
+  }
+  .banner-btn-right:hover{
+    border: solid 1px $color-primary;
+    cursor: pointer;
+    a{
+      color: $color-primary;
+      background-color: $color-white;
+    }
+  }
+  .social-links{
+    p{
+      font-size: 14px;
+      line-height: 21px;
+      color: $color-secondary;
+    }
+    a{
+      i{
+        font-size: 25px;
+        line-height: 21px;
+        margin: 5px;
+        color: $color-secondary;
+      }
+    }
+    a:hover i{
+      color: $color-theme;
+    }
+  }
+}
+.form-content{
+  height: 88vh;
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: $color-primary;
+    margin: 5px 0;
+  }
+  .input-field{
+    border: none;
+    box-shadow: none;
+    border-bottom: solid 1px $color-secondary;
+    padding: 10px;
+    margin: 20px 0;
+  }
+  .submit-btn{
+    background-color: $color-theme;
+    border: solid 1px $color-theme;
+    color: $color-white;
+    padding: 5px 0;
+    margin: 10px 0;
+    input{
+      color: $color-white;
+    }
+  }
+  .submit-btn:hover{
+    background-color: $color-white;
+    cursor: pointer;
+    input{
+      color: $color-theme;
+      text-decoration: none;
+    }
+  }
+  .social-links{
+    p{
+      font-size: 14px;
+      line-height: 21px;
+      color: $color-secondary;
+    }
+    a{
+      i{
+        font-size: 25px;
+        line-height: 21px;
+        margin: 5px;
+        color: $color-secondary;
+      }
+    }
+    a:hover i{
+      color: $color-theme;
+    }
+  }
+  .signup-right{
+    background: url(../../img/signup-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+      color: $color-white;
+    }
+    p{
+      color: $color-white;
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .play-btn{
+      padding: 15px;
+      background: $color-theme;
+      color: $color-white;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  }
+}
+.aboutus-right{
+  p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    color: $color-primary;
+    margin: 5px 0;
+  }
+}
+.footer-section{
+  .social-links{
+    p{
+      font-size: 14px;
+      line-height: 21px;
+      color: $color-secondary;
+    }
+    a{
+      i{
+        font-size: 25px;
+        line-height: 21px;
+        margin: 5px;
+        color: $color-secondary;
+      }
+    }
+    a:hover i{
+      color: $color-theme;
+    }
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
