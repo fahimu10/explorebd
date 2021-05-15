@@ -52,7 +52,7 @@
             <!-- Hotel Sections -->
             <div class="row">
             <?php 
-                $hotel_query = "SELECT * hotels JOIN destinations ON hotels.destinations_id=destinations.destinations_id WHERE destinations.destinations_id='$des_id'";
+                $hotel_query = "SELECT * FROM hotels JOIN destinations ON hotels.destinations_id=destinations.destinations_id WHERE destinations.destinations_id='$des_id'";
                 $hotel_query_run = mysqli_query($con,$hotel_query);
 
                 if(mysqli_num_rows($hotel_query_run) > 0)
